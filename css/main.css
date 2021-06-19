@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+    background-color: #D8D1F8;
+}
+
+li, a, button {
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: #817392;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #817392;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 300px;
+}
+
+
+button {
+    color: white;
+    padding: 9px 25px;
+    background-color: rgba(101, 86, 121,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(101, 86, 121,0.5);
+}
+
+.border {
+    height: 250px;
+    background-color: #655679;
+    margin-bottom: 100px;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    width: 75%;
+    height: 850px;
+    background-color: #655679;
+    border: 10px solid white;
+    border-radius: 5%;
+}
+
+.planet {
+    display: inline-block;
+    width: 50px;
+    cursor: pointer;
+}
+
+.sun {
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.mercury {
+    position: absolute;
+    right: 250px;
+    left: 300px;
+    top: 0;
+    bottom: 200px;
+    margin: auto auto;
+}
+
+.venus {
+    position: absolute;
+    right: 50px;
+    left: 300px;
+    top: 0;
+    bottom: 100px;
+    margin: auto auto;
+}
+
+.earth {
+    position: absolute;
+    right: 50px;
+    left: 400px;
+    top: 150px;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.mars {
+    position: absolute;
+    right: 50px;
+    left: 200px;
+    top: 350px;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.jupiter {
+    position: absolute;
+    right: 200px;
+    left: 50px;
+    top: 550px;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.saturn {
+    position: absolute;
+    right: 550px;
+    left: 50px;
+    top: 350px;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.uranus {
+    position: absolute;
+    right: 850px;
+    left: 50px;
+    top: 150px;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.neptune {
+    position: absolute;
+    right: 1150px;
+    left: 50px;
+    top: 0;
+    bottom: 200px;
+    margin: auto auto;
+}
+
+.box button {
+    margin: 15px 15px;
+}
+
+#box-title {
+    font-family: "Source Code Pro", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin: 15px auto;
+    color: white;
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    background-color: #817392;
+}

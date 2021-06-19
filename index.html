@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper Text Astronauts</title>
+
+    <!-- Linking stylesheets to site -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/float-grid.css">
+
+</head>
+<body>
+
+    <!-- Header for site, includes logo image and button that leads to Home or Contact page -->
+    <header>
+        <img src="images/logo.png" alt="HTA Logo" class="logo">
+        <button>Home</button>
+        <button>Contact</button>
+    </header>
+
+    <div class="border"></div>
+
+    <main>
+
+        <h2 id="box-title">Solar System</h2>
+        <div class="box">
+        
+            <div id="solar">
+                <img src="images/sun.png" alt="Sun" class="planet sun" onclick="hide(this)">
+                <img src="images/mercury.png" alt="Mercury" class="planet mercury" onclick="hide(this)">
+                <img src="images/venus.png" alt="Venus" class="planet venus" onclick="hide(this)">
+                <img src="images/earth.png" alt="Earth" class="planet earth" onclick="hide(this)">
+                <img src="images/mars.png" alt="Mars" class="planet mars" onclick="hide(this)">
+                <img src="images/jupiter.png" alt="Jupiter" class="planet jupiter" onclick="hide(this)">
+                <img src="images/saturn.png" alt="Saturn" class="planet saturn" onclick="hide(this)">
+                <img src="images/uranus.png" alt="Uranus" class="planet uranus" onclick="hide(this)">
+                <img src="images/neptune.png" alt="Neptune" class="planet neptune" onclick="hide(this)">
+            </div>
+
+            <div id="info">
+                <img src="images/sun.png" alt="Sun" class="info">
+                <img src="images/mercury.png" alt="Mercury" class="info">
+                <img src="images/venus.png" alt="Venus" class="info">
+                <img src="images/earth.png" alt="Earth" class="info">
+                <img src="images/mars.png" alt="Mars" class="info">
+                <img src="images/jupiter.png" alt="Jupiter" class="info">
+                <img src="images/saturn.png" alt="Saturn" class="info">
+                <img src="images/uranus.png" alt="Uranus" class="info">
+                <img src="images/neptune.png" alt="Neptune" class="info">
+            </div>
+
+            <button onclick="show()" id="backBT">Back</button>
+            
+        </div>
+
+    </main>
+    
+    <script src="scripts/app.js"></script>
+
+</body>
+</html>
