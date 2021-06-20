@@ -4,7 +4,7 @@ body {
     background-color: #D8D1F8;
 }
 
-li, a, button {
+li, button {
     font-family: "Source Code Pro", sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -55,7 +55,11 @@ button:hover {
     height: 850px;
     background-color: #655679;
     border: 10px solid white;
-    border-radius: 5%;
+    border-radius: 50px;
+}
+
+#solar {
+    overflow: hidden;
 }
 
 .planet {
@@ -65,84 +69,100 @@ button:hover {
 }
 
 .sun {
-    position:absolute;
+    position: relative;
     right: 0;
-    left: 0;
+    left: -250px;
     top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 500px;
 }
 
 .mercury {
-    position: absolute;
-    right: 250px;
-    left: 300px;
+    position:absolute;
+    right: 0;
+    left: 250px;
     top: 0;
-    bottom: 200px;
-    margin: auto auto;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20px;
 }
 
 .venus {
-    position: absolute;
-    right: 50px;
-    left: 300px;
+    position:absolute;
+    right: 0;
+    left: 350px;
     top: 0;
-    bottom: 100px;
-    margin: auto auto;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .earth {
-    position: absolute;
-    right: 50px;
-    left: 400px;
-    top: 150px;
+    position:absolute;
+    right: 0;
+    left: 450px;
+    top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .mars {
-    position: absolute;
-    right: 50px;
-    left: 200px;
-    top: 350px;
+    position:absolute;
+    right: 0;
+    left: 550px;
+    top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40px;
 }
 
 .jupiter {
-    position: absolute;
-    right: 200px;
-    left: 50px;
-    top: 550px;
+    position:absolute;
+    right: 0;
+    left: 650px;
+    top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 200px;
 }
 
 .saturn {
-    position: absolute;
-    right: 550px;
-    left: 50px;
-    top: 350px;
+    position:absolute;
+    right: 0;
+    left: 900px;
+    top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
 }
 
 .uranus {
-    position: absolute;
-    right: 850px;
-    left: 50px;
-    top: 150px;
+    position:absolute;
+    right: 0;
+    left: 1100px;
+    top: 0;
     bottom: 0;
-    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
 }
 
 .neptune {
-    position: absolute;
-    right: 1150px;
-    left: 50px;
+    position:absolute;
+    right: 0;
+    left: 1250px;
     top: 0;
-    bottom: 200px;
-    margin: auto auto;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
 }
 
 .box button {
@@ -160,4 +180,34 @@ button:hover {
     border-radius: 50px;
     transition: all 0.3s ease 0s;
     background-color: #817392;
+}
+
+.info {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    background-color: #817392;
+    border-radius: 50px;
+}
+
+.info p {
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+main h1 {
+    font-family: "Source Code Pro", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+main footer {
+    font-family: "Source Code Pro", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
